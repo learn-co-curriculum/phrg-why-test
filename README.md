@@ -33,5 +33,8 @@ A Integration test excels at describing and verifying how the application actual
 
 A Unit test focuses on one part of the application. They ignore the rest application, and describe and verify a focused part. Unit tests tend to be faster than Integration tests. That speed comes at the cost of less confidence that the application will work. The added focus lets us better describe the logic of specific parts of the code. The focus will give better errors of what is causing the test to fail.
 
+## Building and maintaining a test suite
 
+When it comes to building a project, we will want a combination of Integration and Unit focused tests. We can picture a Pyramid as what we are targeting. At the top of the Pyramid are Integration focused tests, and at the bottom are Unit focused tests. Between the top and bottom are tests that are something between a Unit and Integration test. We want a few high value Integration focused tests,. As we travel down the Pyramid, the focus should become Unit focused the further we travel.
 
+When working on a feature, it is a good idea to start with a high level Integration focused test. Once we get the feature working, flesh out the code with Unit Tests. Once the feature is working, review the tests you have written. Consider making a commit that deletes low value tests. Tests can out live the value they once offered.
