@@ -38,3 +38,14 @@ A Unit test focuses on one part of the application. They ignore the rest applica
 When it comes to building a project, we will want a combination of Integration and Unit focused tests. We can picture a Pyramid as what we are targeting. At the top of the Pyramid are Integration focused tests, and at the bottom are Unit focused tests. Between the top and bottom are tests that are something between a Unit and Integration test. We want a few high value Integration focused tests,. As we travel down the Pyramid, the focus should become Unit focused the further we travel.
 
 When working on a feature, it is a good idea to start with a high level Integration focused test. Once we get the feature working, flesh out the code with Unit Tests. Once the feature is working, review the tests you have written. Consider making a commit that deletes low value tests. Tests can out live the value they once offered.
+
+
+## Resources
+
+https://martinfowler.com/bliki/TestPyramid.html
+https://martinfowler.com/bliki/IntegrationTest.html
+https://www.martinfowler.com/bliki/UnitTest.html
+http://wiki.c2.com/?TestDrivenDevelopment
+http://wiki.c2.com/?IntegrationTest
+http://wiki.c2.com/?UnitTest
+https://robots.thoughtbot.com/testing-from-the-outsidein
