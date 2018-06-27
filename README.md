@@ -1,24 +1,26 @@
 # Testing
 
-The Nitro Developer Bootcamp is a test-driven learning experience. Tests help guide us through our studies of various programming languages and libraries. Having tests provides a great way to assert that the code we write accomplishes our required tasks. It also provides us with a fast feedback loop:
+The Nitro Developer Bootcamp is a test-driven learning experience. Tests help guide us through our studies of programming languages and libraries. Having tests provides a way to assert that the code we write accomplishes our required tasks. It also provides us with a fast feedback loop:
 
-Write a test. Write some code. Run the test.
+1. Write a test, run it, and watch it fail.
+1. Based the the error from the test failure, write code to make the test pass.
+1. Run the test and see it pass, or the error change.
+1. Repeat.
 
-Write some more code. Test it again.
-
-A fast feedback loop helps us write better code. It quickly points out errors and helps identify ways our code could be designed better.
+This feedback loop helps us write better code. It points out errors and helps identify ways to better design our code.
 
 ## A growing application (Nitro)
 
-As applications grow, having test coverage becomes vital to an app's survival. Not only for the process of development, but for some insurance that something we just added will not break something else. Having a test suite that verifies our API is functioning properly gives developers more confidence, and helps root out bugs.
+As applications grow, having test coverage becomes vital to an app's survival. And not only for the process of developing new features. Tests give us some assurance that something we added will not break the rest of the app. They also let us extend and revise existing features, with the same assurances. A test suite will give developers more confidence, and helps prevent bugs.
 
-Although tests take time to write, they become a big time saver very quickly. Tests save time because they can set up complex scenarios that would be very hard to manually produce by hand. Then their value grows each time they are run.
+Although tests take time to write, they become a big time saver. Tests save time because they can set up complex scenarios that would be very hard to produce by hand. The value of the test grows each time it runs.
 
-Let's say we are working on a new feature in our software. Then we run our test suite and see a breaking test from a different area of the codebase. At first, seeing that random test fail feels like a bummer. But the reality is the broken test has identified a place where our code needs to improve, so we can fix it and create a better product. The earlier we can detect that something may break, the faster we can ship value to our end users.
+Let's say we are working on a new feature in our application. Then we run our test suite and see a unexpected breaking test. At first, seeing that random test fail feels like a bummer. The broken test has identified a place where we introduced a regression. Now we can use the failure to figure out why did this fail? Did we make a change that had an unintended change to how the existing code works? Does the existing code not support the new needs of the feature. The earlier we can detect that something may break, the faster we can ship value to our end users.
 
 ## Documentation
 
-Well written tests are also a great place to learn what a codebase does. Tests serve as a self updating source of documentation. Good descriptions and good tests make it easier for developers to learn new codebases.
+Well written tests are also a great place to learn what a codebase does. Tests serve as executable documentation. Writing comments in application code can be helpful to describe what the code is doing. But what happens after a few weeks, or a year; will we remember to update the comments? Tests are less likely to fall out of sync with documentation. When the code changes in semantic way, the test should fail. Good descriptions and tests make it easier for developers to learn new codebases.
+
 
 # Tests in an MVC Framework - An Automobile Analogy
 
