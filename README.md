@@ -15,7 +15,7 @@ As applications grow, having test coverage becomes vital to an app's survival. A
 
 Although tests take time to write, they become a big time saver. Tests save time because they can set up complex scenarios that would be very hard to produce by hand. The value of the test grows each time it runs.
 
-Let's say we are working on a new feature in our application. Then we run our test suite and see a unexpected breaking test. At first, seeing that random test fail feels like a bummer. The broken test has identified a place where we introduced a regression. Now we can use the failure to figure out what happened. Did we make a change that had an unintended change to how the existing code works? Does the existing code not support the new needs of the feature? The earlier we can detect that something may break, the faster we can ship value to our end users.
+Let's say we are working on a new feature in our application. Then we run our test suite and see an unexpected breaking test. At first, seeing that random test fail feels like a bummer. The broken test has identified a place where we introduced a regression. Now we can use the failure to figure out what happened. Did we make a change that had an unintended change to how the existing code works? Does the existing code not support the new needs of the feature? The earlier we can detect that something may break, the faster we can ship value to our end users.
 
 ## Documentation
 
@@ -31,7 +31,7 @@ An Integration test excels at describing and verifying how the application actua
 
 ### Unit Tests:
 
-A Unit test focuses on one part of the application and ignore the rest. They describe and verify a focused part. Unit tests tend to be faster than Integration tests. That speed comes at the cost of less confidence that the application will work. The added focus lets us better describe the logic of specific parts of the code. The focus will give better errors of what is causing the test to fail.
+A Unit test focuses on one part of the application and ignores the rest. They describe and verify a focused part. Unit tests tend to be faster than Integration tests. That speed comes at the cost of less confidence that the application will work. The added focus lets us better describe the logic of specific parts of the code. The focus will give better errors of what is causing the test to fail.
 
 ## Building and Maintaining a Test Suite
 
