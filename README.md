@@ -1,6 +1,6 @@
 # Testing
 
-The Nitro Developer Bootcamp is a test-driven learning experience. Tests help guide us through our studies of programming languages and libraries. Having tests provides a way to assert that the code we write accomplishes our required tasks. It also provides us with a fast feedback loop:
+The Power Code Academy is a test-driven learning experience. Tests help guide us through our studies of programming languages and libraries. Having tests provides a way to assert that the code we write accomplishes our required tasks. It also provides us with a fast feedback loop:
 
 1. Write a test, run it, and watch it fail.
 1. Based the the error from the test failure, write code to make the test pass.
