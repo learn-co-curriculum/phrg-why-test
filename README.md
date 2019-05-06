@@ -48,3 +48,7 @@ When working on a feature, it is a good idea to start with a high level Integrat
 - http://wiki.c2.com/?IntegrationTest
 - http://wiki.c2.com/?UnitTest
 - https://robots.thoughtbot.com/testing-from-the-outsidein
+
+## Does this need an update?
+
+Please open a [pull-request](https://github.com/powerhome/phrg-why-test/pulls). Provide a detailed description that explains the change you are proposing. Then "@" mention your instructor on the pull-request, and send them a link via Connect.
